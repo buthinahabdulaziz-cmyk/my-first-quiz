@@ -46,7 +46,40 @@ button {
 }
 
 button:hover {
+    background-color: #e2e8f0;
+}
+
+/* ألوان التفاعل الجديدة للإجابات */
+button.correct {
+    background-color: #22c55e !important; /* أخضر للإجابة الصح */
+    color: white;
+    border-color: #22c55e;
+}
+
+button.wrong {
+    background-color: #ef4444 !important; /* أحمر للإجابة الخطأ */
+    color: white;
+    border-color: #ef4444;
+}
+
+/* زر التالي المطور */
+.next-btn {
+    font-family: 'Tajawal', sans-serif;
     background-color: #3b82f6;
     color: white;
-    border-color: #3b82f6;
+    border: none;
+    margin-top: 20px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.next-btn:hover {
+    background-color: #1d4ed8;
+}
+
+.hide {
+    display: none;
 }
